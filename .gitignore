@@ -13,3 +13,28 @@ backstop_data
 dist
 .cache
 .parcel-cache
+# Node modules (dependências)
+node_modules/
+
+# Cache do parcel
+.cache/
+.parcel-cache/
+
+# Pastas de build/produção
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Outros arquivos temporários de editor
+*.log
+*.tmp
+*.swp
+
